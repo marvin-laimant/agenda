@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Formulaire</title>
+</head>
+<body class="pageinscription">
+    <header>
+        <h1>Formulaire de rajout</h1>
+    </header>
+
+    <main>
+        <article>
+            <section>
+
+<form action="agenda.html">
+    <div class="container">
+        <div class="formularytext">
+            <label for="name">Taches:</label>
+            <input type="text" id="name" name="name" required
+                minlength="1" maxlength="1000" size="30">
+        </div>
+        <div class="formularydate">
+            <label for="start">Date:</label>
+            <input type="date" id="start" name="trip-start"
+                value="2018-07-22"
+                min="2020-10-21" max="2040-12-31"></div>
+                <div class="formularyhour">
+                    <label for="appt">Choisir l'heure:</label>
+                    <input type="time" id="appt" name="appt"
+                        min="09:00" max="18:00" required>
+           <!-- <small>Office hours are 9am to 6pm</small> -->
+                </div>
+                <div class="formularycolor">
+                    <label for="color">Choisir la couleur en fonction de l'importance:</label>
+                    <input type="color">
+                </div>
+                <div class="formularybutton">
+
+        <!-- <input type="button"
+  name="nom_variable"
+  value="Mon bouton"> -->
+
+                    <input class="favorite styled"
+                        type="submit"
+                        value="Envoyer">
+                </div>
+        </div>
+    </div>
+</form>
+
+</section>
+</article>
+</main>
+
+            <footer>
+               
+                        <h1>Ne charge pas trop l'agenda</h1>
+                        <img src="formulaire.gif" alt="point lumineux mobile">
+                    
+                
+            </footer>
+
+           </body>
+           </html>
